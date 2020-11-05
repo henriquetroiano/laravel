@@ -1,6 +1,7 @@
 @extends('layouts.principal')
 
-@section('titulo', 'Departamentos')
+
+@section('titlepage', 'Departamentos')
 
 
 @section('conteudo')
@@ -16,15 +17,7 @@
     <br>
     {{--  <a href="{{ route('clientes.index') }}">Voltar</a>  --}}
     
-    @component('components.alerta', ['titulo'=>'Erro Fatal'])
-        <p><strong>Erro inesperado</strong></p>
-        <p>Ocorreu um erro Inesperado</p>
-    @endcomponent
-    @component('components.alerta')
-    @endcomponent
-    @component('components.alerta')
-    @endcomponent
-    @component('components.alerta')
-    @endcomponent
+
+  
 @endsection
 

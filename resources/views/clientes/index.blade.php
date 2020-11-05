@@ -1,6 +1,6 @@
 @extends('layouts.principal')
 
-@section('titulo', 'Clientes')
+@section('titlepage', 'Clientes')
 
 @section('conteudo')
     <h3>Clientes:</h3>
